@@ -17,7 +17,7 @@ function Header({ text }) {
 Header.defaultProps = {
    text: "Feedback UI", // default text
 };
-Header.propTypesropTypes = {
+Header.propTypes = {
    text: PropTypes.string /* mastiin jenis prop settings */,
 };
 
