@@ -14,7 +14,7 @@ function Feedbackstats({ feedback }) {
 
 
    return (
-      <div className="flex justify-between">
+      <div className="flex justify-between mt-4">
          <h4 className="text-white font-bold">{feedback.length} Reviewes</h4>
          <h4 className="text-white font-bold">Avarage Rating : {isNaN(avarage) ? 0 : avarage} </h4>
          
