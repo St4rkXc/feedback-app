@@ -8,7 +8,7 @@ function Header({ text }) {
             <h2 className="font-semibold text-center text-xl text-pink-400">{text}</h2>
          </div>
          <div className="container mx-auto">
-
+            
          </div>
       </header>
    );
