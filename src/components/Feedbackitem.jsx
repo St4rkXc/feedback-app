@@ -4,6 +4,7 @@ import Card from "./shared/Card";
 import PropTypes from "prop-types";
 
 function Feedbackitem({ item, handleDelete }) {
+   // eslint-disable-next-line no-unused-vars
    const handleClick = (id) => {
       console.log(id)
    }
